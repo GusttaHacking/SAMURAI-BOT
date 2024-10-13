@@ -4,19 +4,19 @@ const chalk = require('chalk')
 const { en, es, ar, id, pt, rs} = require('./libs/idiomas/total-idiomas.js') 
 
 //---------[ PROPIETARIO/OWNER ]---------
-global.owner = [["50582340051", "Eliasar YT", true], ["593968585383"], ["5492266466080"], ["595986172767"], ["5492266613038"], ["5217294888993"], ["5214434703586"], ["5214437863111"], ["51906662557"], ["595992302861"], ["5217441298510"], ["5491155983299"], ["5493795319022"], ["5217821153974"], ["573012482597"]]
+global.owner = [["5521964370098", "𝕏 ⿻", true], ["5511961646340"], ["5492266466080"], ["595986172767"], ["5492266613038"], ["5217294888993"], ["5214434703586"], ["5214437863111"], ["51906662557"], ["595992302861"], ["5217441298510"], ["5491155983299"], ["5493795319022"], ["5217821153974"], ["573012482597"]]
 global.mods = []
 global.premium = []  
 global.blockList = []  
 
 //---------[ NOMBRE/INFO ]---------
-global.botname = "𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 🏵️"
-global.wm = '𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 🏵️'
+global.botname = "𝐇𝐀𝕏𝕏 - 𝚩𝐎𝚻 🕳 </> 𝐋𝐀𝐋𝐀 - 𝚩𝐎𝚻 🐊"
+global.wm = '𝐇𝐀𝕏𝕏 - 𝚩𝐎𝚻 🕳 </> 𝐋𝐀𝐋𝐀 - 𝚩𝐎𝚻 🐊'
 global.vs = '1.0 (beta)'
 
 //Función beta : escribe el número que quiere que sea bot para que mande el Código de 8 digitos
-global.botNumberCode = "" //Ejemplo: +50231458537
-global.phoneNumber = ""
+global.botNumberCode = "5521966057213" //Ejemplo: +50231458537
+global.phoneNumber = "5521966047213"
 
 //---------[ FECHA/IDIOMAS ]---------
 global.place = 'America/Thule' // Aquí puedes encontrar tu ubicación https://momentjs.com/timezone/
@@ -72,7 +72,7 @@ global.APIKeys = {
 };
  
 //---------[ STICKERS ]---------
-global.packname = "𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 🏵️"
+global.packname = "𝐇𝐀𝕏𝕏 - 𝚩𝐎𝚻 🕳 </> 𝐋𝐀𝐋𝐀 - 𝚩𝐎𝚻 🐊"
 global.author = `${vs}`
 
  global.catalogo = "https://qu.ax/WlyB.jpg"
@@ -113,11 +113,11 @@ global.multi = 'https://chat.whatsapp.com/CBY978TEw5N10tRhQiapZV' //Grupo náufr
 global.nna2 = 'https://github.com/Eliasar54/SAMURAI-BOT'
 global.n2 = "https://whatsapp.com/channel/0029Vae6j714Y9loutP3Au29"
 //---------[ INFO ]--------- 
-global.info = { wait: '*⌛ _Cargando..._ ▬▭▭▭▭▭▭*', 
-waitt: '*⌛ _Cargando..._ ▬▬▭▭▭*', 
-waittt: '*⌛ _Cargando..._ ▬▬▬▬▭▭*', 
-waitttt: '*⌛ _Cargando..._ ▬▬▬▬▬▬▭*', 
-waittttt: '*⌛ _Cargando..._ ▬▬▬▬▬▬▬*', 
+global.info = { wait: '*⌛ _Calma, Esta carregando By 𝑨𝑵𝑮𝑼𝑺𝑻𝑰𝑨, 𝑶 𝑩𝑹𝑨𝑩𝑶 𝑫𝑶 7 and 𝐆𝐔𝐒⛥ - 𝕏 ⿻..._ ▬▭▭▭▭▭▭*', 
+waitt: '*⌛ _Calma, Esta carregando By 𝑨𝑵𝑮𝑼𝑺𝑻𝑰𝑨, 𝑶 𝑩𝑹𝑨𝑩𝑶 𝑫𝑶 7 and 𝐆𝐔𝐒⛥ - 𝕏 ⿻..._ ▬▬▭▭▭*', 
+waittt: '*⌛ _Calma, Esta carregando By 𝑨𝑵𝑮𝑼𝑺𝑻𝑰𝑨, 𝑶 𝑩𝑹𝑨𝑩𝑶 𝑫𝑶 7 and 𝐆𝐔𝐒⛥ - 𝕏 ⿻..._ ▬▬▬▬▭▭*', 
+waitttt: '*⌛ _Calma, Esta carregando By 𝑨𝑵𝑮𝑼𝑺𝑻𝑰𝑨, 𝑶 𝑩𝑹𝑨𝑩𝑶 𝑫𝑶 7 and 𝐆𝐔𝐒⛥ - 𝕏 ⿻..._ ▬▬▬▬▬▬▭*', 
+waittttt: '*⌛ _Calma, Esta carregando. By 𝑨𝑵𝑮𝑼𝑺𝑻𝑰𝑨, 𝑶 𝑩𝑹𝑨𝑩𝑶 𝑫𝑶 7 and 𝐆𝐔𝐒⛥ - 𝕏 ⿻..._ ▬▬▬▬▬▬▬*', 
 result: `${lenguaje['exito']()}`,  
 admin: `${lenguaje['admin']()}`, 
 botAdmin: `${lenguaje['botAdmin']()}`, 
