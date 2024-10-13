@@ -87,11 +87,11 @@ text6: `MENSAGEM:` }
 
 //autobio
 const Bio = { 
-text: `🦁 ɴᴏᴠᴀʙᴏᴛ - Ter:`, 
+text: `🦁 𝐇𝐀𝕏𝕏 - 𝚩𝐎𝚻 🕳 </> 𝐋𝐀𝐋𝐀 - 𝚩𝐎𝚻 🐊 :`, 
 text2: `Os usuários que me usam podem responder lentamente, minha velocidade de resposta é:`,
-text3: `👑 ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ | Ativo ✅️:`, 
+text3: `👑 𝐇𝐀𝕏𝕏 - 𝚩𝐎𝚻 🕳 </> 𝐋𝐀𝐋𝐀 - 𝚩𝐎𝚻 🐊 | Ativo ✅️:`, 
 text4: `Para cronometrar minha lista de comandos, use #menu`, 
-text5: `ɴᴏᴠᴀʙᴏᴛ ᴘᴏʀ ʟᴏʟɪʙᴏᴛ - Inscreva-se em nosso canal no YouTube 🔔\nhttps://www.youtube.com/@elrebelde.21`, 
+text5: `Portugues.`, 
 text6: `✅ Atividade:`, 
 text7: `👥 Usuários:` }
 
@@ -213,7 +213,7 @@ text20: `╭─────────────┈⊷
 │ \`\`\`COMO INSTALAR ESTE BOT?\`\`\`
 ╰┬────────────┈⊷
 ┌┤\`\`\`📌 REQUERIMENTOS DE INSTALAÇÃO\`\`\`
-┌┤❇️ _Dúvidas: wa.me/5492266466080_
+┌┤❇️ _Dúvidas: wa.me/5521964370098
 ┌┤❇️ _Tutorial: https://youtu.be/OhbJjp0L2QA?si=ZqRgG3SGTRFSW6CH_
 ┌┤❇️ _1 GB de armazenamento_
 ┌┤❇️ _Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file_
@@ -744,7 +744,7 @@ const smsReg8 = () => { return `*💬 Escolha seu idioma com:* #idioma` }
 const cuenta = (nna, md, yt, tiktok, fb) => { return `*Bem-vindo às contas oficiais ✨*
 
 *👑 Número oficial do bot:*
-• wa.me/51910628581 
+• wa.me/5521966047213 
 
 *✨ Canal WhatsApp / Atualização:*
 • ${nna}
