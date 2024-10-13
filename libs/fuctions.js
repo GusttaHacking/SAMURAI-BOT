@@ -476,7 +476,7 @@ if(!isNumber(user.armorDurability)) user.armorDurability = 100
 if(!isNumber(user.lastMining)) user.lastMining = 0
 if(!isNumber(user.potion)) user.potion = 0
 if (!isNumber(user.rock)) user.rock = 0
-if (!isNumber(user.iron)) user.iron = 0
+if (!isNumber(user.DE FERRO)) user.DE FERRO = 0
 if (!isNumber(user.trash)) user.trash = 0
 } else global.db.data.users[m.sender] = {  
 afkTime: -1,  
@@ -523,7 +523,7 @@ armorDurability: 100,
 lastMining: 0,
 potion: 0,
 rock: 0,
-iron: 0,
+DE FERRO: 0,
 trash: 0,
 }  
 let chats = global.db.data.chats[m.chat]  
@@ -636,11 +636,11 @@ if (user.level <= 3) {
 } else if (user.level <= 48) {
   user.role = 'MAESTRO(A) I ⚒️'
 } else if (user.level <= 51) {
-  user.role = 'IRON IV 🦾'
+  user.role = 'DE FERRO IV 🦾'
 } else if (user.level <= 54) {
-  user.role = 'IRON III 🦾'
+  user.role = 'DE FERRO III 🦾'
 } else if (user.level <= 57) {
-  user.role = 'IRON II 🦾'
+  user.role = 'DE FERRO II 🦾'
 } else if (user.level <= 60) {
   user.role = 'PLATA I 🔮 '
 } else if (user.level <= 63) {
@@ -648,11 +648,11 @@ if (user.level <= 3) {
 } else if (user.level <= 66) {
   user.role = 'PLATA III 🔮'
 } else if (user.level <= 69) {
-  user.role = 'ORO I 🏅'
+  user.role = 'OURO I 🏅'
 } else if (user.level <= 72) {
-  user.role = 'ORO II 🏅'
+  user.role = 'OURO II 🏅'
 } else if (user.level <= 75) {
-  user.role = 'ORO III 🏅'
+  user.role = 'OURO III 🏅'
 } else if (user.level <= 78) {
   user.role = 'DIAMANTE I 💎'
 } else if (user.level <= 81) {
@@ -660,11 +660,11 @@ if (user.level <= 3) {
 } else if (user.level <= 84) {
   user.role = 'DIAMANTE III 💎'
 } else if (user.level <= 87) {
-  user.role = '😮 PRO EN Samurai-botIII'
+  user.role = '😮 PRO III'
 } else if (user.level <= 90) {
-  user.role = '😮 PRO EN Samurai-bot II'
+  user.role = '😮 PRO  II'
 } else if (user.level <= 93) {
-  user.role = '😮 PRO EN Samurai-bot I'
+  user.role = '😮 PRO  I'
 } else if (user.level <= 96) {
   user.role = 'SUPER PRO III 🎩'
 } else if (user.level <= 99) {
@@ -678,11 +678,11 @@ if (user.level <= 3) {
 } else if (user.level <= 111) {
   user.role = 'LEGENDARIO(A) I 🛡️'
 } else if (user.level <= 114) {
-  user.role = 'LEYENDA III 🏆'
+  user.role = 'LENDA III 🏆'
 } else if (user.level <= 117) {
-  user.role = 'LEYENDA II 🏆'
+  user.role = 'LENDA II 🏆'
 } else if (user.level <= 120) {
-  user.role = 'LEYENDA I 🏆'
+  user.role = 'LENDA I 🏆'
 } else if (user.level <= 123) {
   user.role = 'ESTELAR III ☄️'
 } else if (user.level <= 126) {
@@ -712,7 +712,7 @@ if (user.level <= 3) {
 } else if (user.level <= 270) {
   user.role = '👑 *∞ ÉLITE GLOBAL I* 💎🏁'    
 } else if (user.level <= 300) {
-  user.role = '👑 *QUE PRO 🙌*\n\n🥳 Eres el mas activo del grupo te mereces ser un admins 🤩🥳'
+  user.role = '👑 *Q massa em mano 🙌*\n\n🥳 é mais ativo que um adm 🤩🥳'
 }}} catch (error) {
 m.error = error
 if (error) {
@@ -1144,7 +1144,7 @@ conn.sendList = async(jid, title, text, buttonText, listSections, quoted, option
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363297379773397@newsletter',
-            newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️', 
+            newsletterName: '𝐇𝐀𝕏𝕏 - 𝚩𝐎𝚻', 
             serverMessageId: ''
           }
         }
